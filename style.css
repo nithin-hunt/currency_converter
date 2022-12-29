@@ -1,0 +1,37 @@
+*,
+:before,
+:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 160px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+form div {
+    margin:20px;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+form input {
+    font-size: 1.3rem;
+    height: 40px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+form button {
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+    font-size: 1.4rem;
+}
+
+    
